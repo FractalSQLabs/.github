@@ -7,10 +7,6 @@
 Organization-wide defaults for the
 [FractalSQLabs](https://github.com/FractalSQLabs) GitHub org.
 
-GitHub automatically reads certain files from a special repo named
-`.github` and applies them as fallbacks to every other repository in
-the organization. This repo is that.
-
 ## Contents
 
 | File | What GitHub does with it |
@@ -22,11 +18,12 @@ the organization. This repo is that.
 
 The actual FractalSQL factories live in sibling repos, not here:
 
-- [`postgresql-fractalsql`](https://github.com/FractalSQLabs/postgresql-fractalsql) — PostgreSQL 14 / 15 / 16 / 17 / 18 extension
-- [`sqlite-fractalsql`](https://github.com/FractalSQLabs/sqlite-fractalsql) — SQLite 3.x loadable extension
-- [`duckdb-fractalsql`](https://github.com/FractalSQLabs/duckdb-fractalsql) — DuckDB 1.2 / 1.4 / 1.5 extension
-- [`valkey-fractalsql`](https://github.com/FractalSQLabs/valkey-fractalsql) — Valkey 7.2 / 8.0 / 8.1 module
-- [`couchdb-fractalsql`](https://github.com/FractalSQLabs/couchdb-fractalsql) — CouchDB (early)
+- [`fractalsql-postgresql`](https://github.com/FractalSQLabs/fractalsql-postgresql) — PostgreSQL 14 / 15 / 16 / 17 / 18 extension
+- [`fractalsql-sqlite`](https://github.com/FractalSQLabs/fractalsql-sqlite) — SQLite 3.x loadable extension
+- [`fractalsql-mariadb`](https://github.com/FractalSQLabs/fractalsql-mariadb) — MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 UDF
+- [`fractalsql-duckdb`](https://github.com/FractalSQLabs/fractalsql-duckdb) — DuckDB 1.2 / 1.4 / 1.5 extension
+- [`fractalsql-valkey`](https://github.com/FractalSQLabs/fractalsql-valkey) — Valkey 7.2 / 8.0 / 8.1 module
+- [`fractalsql-couchdb`](https://github.com/FractalSQLabs/fractalsql-couchdb) — CouchDB (early)
 
 ## Security
 
