@@ -10,9 +10,9 @@ Native extensions and plugins for the databases and key-value stores below:
 |---|---|---|---|
 | [fractalsql-postgresql](https://github.com/FractalSQLabs/fractalsql-postgresql) | PostgreSQL 14 / 15 / 16 / 17 / 18 | Extension (`CREATE EXTENSION`) | Apache 2.0 (v2.x) / MIT (v1.x) |
 | [fractalsql-sqlite](https://github.com/FractalSQLabs/fractalsql-sqlite) | SQLite 3.x | Loadable extension (`.load`) | Apache 2.0 (v2.x) / MIT (v1.x) |
-| [fractalsql-mariadb](https://github.com/FractalSQLabs/fractalsql-mariadb) | MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 | Plugin + Daemon | Apache 2.0 (v2.x) |
 | [fractalsql-ext](https://github.com/FractalSQLabs/fractalsql-ext) | DuckDB 1.4 / 1.5 / 2.x | `.duckdb_extension` | Apache 2.0 (v2.x) / MIT (v1.x) |
 | [fractalsql-valkey](https://github.com/FractalSQLabs/fractalsql-valkey) | Valkey 7.2 / 8.0 / 8.1 | Module |  Apache 2.0 (v2.x) / MIT (v1.x) |
+| [fractalsql-mariadb](https://github.com/FractalSQLabs/fractalsql-mariadb) | MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 | Plugin + Daemon | Apache 2.0 (v2.x) |
 | [fractalsql-couchdb](https://github.com/FractalSQLabs/fractalsql-couchdb) | CouchDB | (early) | MIT (v1.x) |
 
 Every factory ships the same SQL / command surface:
@@ -37,7 +37,7 @@ fractal_version()                         → e.g. '2.0.0' (postgresql) — each
 
 ## Compliance
 
-- **Apache 2.0** factories (postgresql, sqlite, mariadb; v2.x line):
+- **Apache 2.0** factories (postgresql, sqlite, ext, valkey, mariadb; v2.x line):
   every release artifact ships with a **Syft-generated SBOM**, a
   **Sigstore/cosign signature**, and a **GitHub build-provenance
   attestation**.

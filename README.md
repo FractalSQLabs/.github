@@ -20,9 +20,9 @@ The actual FractalSQL factories live in sibling repos, not here:
 
 - [`fractalsql-postgresql`](https://github.com/FractalSQLabs/fractalsql-postgresql) — PostgreSQL 14 / 15 / 16 / 17 / 18 extension
 - [`fractalsql-sqlite`](https://github.com/FractalSQLabs/fractalsql-sqlite) — SQLite 3.x loadable extension
-- [`fractalsql-mariadb`](https://github.com/FractalSQLabs/fractalsql-mariadb) — MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 UDF
 - [`fractalsql-ext`](https://github.com/FractalSQLabs/fractalsql-ext) — DuckDB 1.4 / 1.5 / 2.x extension
 - [`fractalsql-valkey`](https://github.com/FractalSQLabs/fractalsql-valkey) — Valkey 7.2 / 8.0 / 8.1 module
+- [`fractalsql-mariadb`](https://github.com/FractalSQLabs/fractalsql-mariadb) — MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 UDF
 - [`fractalsql-couchdb`](https://github.com/FractalSQLabs/fractalsql-couchdb) — CouchDB (early)
 
 ## Security
