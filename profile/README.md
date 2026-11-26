@@ -12,6 +12,7 @@ Native extensions and plugins for the databases and key-value stores below:
 | [fractalsql-sqlite](https://github.com/FractalSQLabs/fractalsql-sqlite) | SQLite 3.x | Loadable extension (`.load`) | Apache 2.0 (v2.x) / MIT (v1.x) |
 | [fractalsql-ext](https://github.com/FractalSQLabs/fractalsql-ext) | DuckDB 1.4 / 1.5 / 2.x | `.duckdb_extension` | Apache 2.0 (v2.x) / MIT (v1.x) |
 | [fractalsql-valkey](https://github.com/FractalSQLabs/fractalsql-valkey) | Valkey 7.2 / 8.0 / 8.1 | Module |  Apache 2.0 (v2.x) / MIT (v1.x) |
+| [fractalsql-druid](https://github.com/FractalSQLabs/fractalsql-druid) | Druid 37 / 38 | Extension | Apache 2.0 (v2.x) |
 | [fractalsql-mariadb](https://github.com/FractalSQLabs/fractalsql-mariadb) | MariaDB 10.6 / 10.11 / 11.4 LTS / 12.3 | Plugin + Daemon | Apache 2.0 (v2.x) |
 | [fractalsql-couchdb](https://github.com/FractalSQLabs/fractalsql-couchdb) | CouchDB | (early) | MIT (v1.x) |
 
